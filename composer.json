@@ -1,0 +1,21 @@
+{
+    "name": "arya/uts",
+    "description": "Pemrograman Berbasis Web Lanjutan",
+    "type": "project",
+    "require": {
+        "php": "^8.0"
+    },
+    
+    "authors": [
+        {
+            "name": "arya",
+            "email": "aryaandrian9@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4" : {
+            "App\\" : "app/"
+        }
+    }
+
+}
